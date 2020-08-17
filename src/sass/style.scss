@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+
+.block{
+    &__info{
+        border: red dashed 8px;
+        &__text{
+            color: green;
+        }
+    }
+}
