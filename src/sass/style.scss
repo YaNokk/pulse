@@ -3,6 +3,16 @@
 @import "blocks/button";
 @import "blocks/header";
 @import "blocks/promo";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "slick/slick";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+
 
 *{
     font-family: "Museo Sans Cyrl", sans-serif;
@@ -10,4 +20,7 @@
 .container{
     max-width: 950px;
     margin: 0 auto;
+}
+.wrapper{
+    padding: 0 20px;
 }

@@ -1,0 +1,37 @@
+.consultation{
+    min-height: 680px;
+    background: url(../img/3_consultation/bg2.png) center center/cover no-repeat ;
+    padding: 100px 0 92px 0;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        @media (max-width: 767.98px) {
+            align-items: center;
+        }
+    }
+    &__title{
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        @media (max-width: 767.98px) {
+            text-align: center;
+            font-size: 30px;
+        }
+        @media (max-width: 575.98px) {
+            font-size: 25px;
+        }
+    }
+    &__descr{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 80px;
+        @media (max-width: 767.98px) {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 36px;
+        }
+    }
+}
